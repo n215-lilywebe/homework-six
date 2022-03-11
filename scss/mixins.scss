@@ -1,0 +1,47 @@
+@mixin promo($bgImage:'../images/promo-tour-hero.png'){
+    height:304px;
+        width: 235px;
+        background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url($bgImage);
+        background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom:55px;
+        color:white;
+        font-family: ProximaNovaECT;
+}
+
+@mixin site-button($bRadius:5px, $btnPadding:5px 15px){
+    background-color: $site-blue;
+    padding:$btnPadding;
+    border-radius: $bRadius;
+    color:white;
+    width:133px;
+    cursor:pointer;
+}
+
+@mixin tourpackagehero($heroImage:''){
+    max-width:$content-width;
+    height:300px;
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url($heroImage);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+    position:relative;
+    margin: 0 auto;
+    margin-top:50px;
+}
+
+@mixin tourpackageimage($image:''){
+
+    height:347px;
+    width:298px;
+    background-image: url($image);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

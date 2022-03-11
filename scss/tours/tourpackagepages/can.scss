@@ -1,0 +1,42 @@
+.ind-tour-hero-can{
+    @include tourpackagehero('../images/canada/tour-08.png');
+
+    .about-hero-text{
+
+        font-size:50px;
+        position:absolute;
+        top:10px;
+        left:10px;
+        
+    }
+
+    .about-price-text{
+
+        font-size:20px;
+        font-style: italic;
+        position:absolute;
+        margin-bottom: 0px;
+        right:10px;
+        bottom:10px;
+        
+        
+    }
+}
+.tour-images{
+    display: flex;
+    justify-content: space-between;
+    max-width: $content-width;
+    min-height: 347px;
+    margin: 0 auto;
+    margin-top:40px;
+    .canada1{
+        @include tourpackageimage('../images/canada/canada-tour-01.png')
+    }
+    .canada2{
+        @include tourpackageimage('../images/canada/canada-tour-02.png')
+    }
+    .canada3{
+        @include tourpackageimage('../images/canada/canada-tour-03.png')
+    }
+}
+

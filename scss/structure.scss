@@ -1,0 +1,32 @@
+@font-face {
+  font-family: ProximaNovaECT;
+  src: url(../Proxima_Nova_Extra_Condensed_Thin.otf);
+}
+@font-face {
+  font-family: GillSansUB;
+  src: url(../GILSANUB.TTF);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 15px;
+}
+
+#app{
+  max-width:$content-width;
+  margin: 0 auto;
+}

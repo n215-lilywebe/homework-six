@@ -1,0 +1,42 @@
+.ind-tour-hero-japan{
+    @include tourpackagehero('../images/japan/tour-07.png');
+
+    .about-hero-text{
+
+        font-size:50px;
+        position:absolute;
+        top:10px;
+        left:10px;
+        
+    }
+
+    .about-price-text{
+
+        font-size:20px;
+        font-style: italic;
+        position:absolute;
+        margin-bottom: 0px;
+        right:10px;
+        bottom:10px;
+        
+        
+    }
+}
+.tour-images{
+    display: flex;
+    justify-content: space-between;
+    max-width: $content-width;
+    min-height: 347px;
+    margin: 0 auto;
+    margin-top:40px;
+    .japan1{
+        @include tourpackageimage('../images/japan/japan-tour-01.png')
+    }
+    .japan2{
+        @include tourpackageimage('../images/japan/japan-tour-02.png')
+    }
+    .japan3{
+        @include tourpackageimage('../images/japan/japan-tour-03.png')
+    }
+}
+

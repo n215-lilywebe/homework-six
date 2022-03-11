@@ -1,0 +1,52 @@
+navh{
+    max-width: $content-width;
+    height:80px;
+    margin: 0 auto;
+    border-bottom: 2px solid $site-white;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    position:relative;
+    z-index: 99;
+    
+
+    span{
+        color:$site-white;
+        margin: 0 20px;
+    }
+
+    .logo{
+        max-width:10%;
+        height:53%;
+
+    }
+
+    .links{
+        max-width:90%;
+
+        a{
+            font-size: 15px;
+            color:$site-white;
+            text-decoration: none;
+            font-family: GillSansUB;
+
+        }
+
+    }
+}
+
+
+@media screen and (max-width:$content-width){
+    navh{
+        max-width: 90%;
+        span{
+            margin: 0 10px;
+        }
+        .links{
+            font-size:8px;
+            
+            
+        }
+    }
+
+}

@@ -1,0 +1,223 @@
+.tour-promo-cards{
+    max-width:818px;
+    min-height:304px;
+    margin-top:50px;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    .promo1{
+        @include promo('../images/asset-5@2x.png');
+
+        .promo-text{
+            margin-top:40px;
+            font-size: 60px;
+            color:white;
+            
+
+        }
+
+        .promo-price{
+            margin-bottom:60px;
+            font-size: 30px;
+
+        }
+
+        
+        .read-btn{
+
+           @include site-button();
+
+           
+               text-decoration: none;
+           
+        }
+        
+    }
+    .promo2{
+        @include promo('../images/asset-11@2x.png');
+
+        .promo-text{
+            margin-top:40px;
+            font-size: 60px;
+            color:white;
+            
+
+        }
+
+        .promo-price{
+            margin-bottom:60px;
+            font-size: 30px;
+
+        }
+
+        .read-btn{
+
+           @include site-button();
+
+        }
+    }
+    .promo3{
+        @include promo('../images/asset-14@2x.png');
+
+        .promo-text{
+            margin-top:40px;
+            font-size: 60px;
+            color:white;
+            
+
+        }
+
+        .promo-price{
+            margin-bottom:60px;
+            font-size: 30px;
+
+        }
+
+        .read-btn{
+
+           @include site-button();
+
+        }
+    }
+    .promo4{
+        @include promo('../images/Group 54.png');
+
+        .promo-text{
+            margin-top:40px;
+            font-size: 60px;
+            color:white;
+            
+
+        }
+
+        .promo-price{
+            margin-bottom:60px;
+            font-size: 30px;
+
+        }
+
+        .read-btn{
+
+           @include site-button();
+
+        }
+    }
+    .promo5{
+        @include promo('../images/Group 55.png');
+
+        .promo-text{
+            margin-top:40px;
+            font-size: 60px;
+            color:white;
+            
+
+        }
+
+        .promo-price{
+            margin-bottom:60px;
+            font-size: 30px;
+
+        }
+
+        .read-btn{
+
+           @include site-button();
+
+        }
+    }
+    .promo6{
+        @include promo('../images/Group 58.png');
+
+        .promo-text{
+            margin-top:40px;
+            font-size: 60px;
+            color:white;
+            
+
+        }
+
+        .promo-price{
+            margin-bottom:60px;
+            font-size: 30px;
+
+        }
+
+        .read-btn{
+
+           @include site-button();
+
+        }
+    }
+    .promo7{
+        @include promo('../images/Group 60.png');
+
+        .promo-text{
+            margin-top:40px;
+            font-size: 60px;
+            color:white;
+            
+
+        }
+
+        .promo-price{
+            margin-bottom:60px;
+            font-size: 30px;
+
+        }
+
+        .read-btn{
+
+           @include site-button();
+
+        }
+    }
+    .promo8{
+        @include promo('../images/Group 63.png');
+
+        .promo-text{
+            margin-top:40px;
+            font-size: 60px;
+            color:white;
+            
+
+        }
+
+        .promo-price{
+            margin-bottom:60px;
+            font-size: 30px;
+
+        }
+
+        .read-btn{
+
+           @include site-button();
+
+        }
+    }
+    .promo9{
+        @include promo('../images/Group 65.png');
+
+        .promo-text{
+            margin-top:40px;
+            font-size: 60px;
+            color:white;
+            
+
+        }
+
+        .promo-price{
+            margin-bottom:60px;
+            font-size: 30px;
+
+        }
+
+        .read-btn{
+
+           @include site-button();
+
+        }
+    }
+}

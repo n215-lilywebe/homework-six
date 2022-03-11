@@ -1,0 +1,41 @@
+.ind-tour-hero-usa{
+    @include tourpackagehero('../images/asset-11@2x.png');
+
+    .about-hero-text{
+
+        font-size:50px;
+        position:absolute;
+        top:10px;
+        left:10px;
+        
+    }
+
+    .about-price-text{
+
+        font-size:20px;
+        font-style: italic;
+        position:absolute;
+        margin-bottom: 0px;
+        right:10px;
+        bottom:10px;
+        
+        
+    }
+}
+.tour-images{
+    display: flex;
+    justify-content: space-between;
+    max-width: $content-width;
+    min-height: 347px;
+    margin: 0 auto;
+    margin-top:40px;
+    .usa1{
+        @include tourpackageimage('../images/usa/usa-tour-01.png')
+    }
+    .usa2{
+        @include tourpackageimage('../images/usa/usa-tour-02.png')
+    }
+    .usa3{
+        @include tourpackageimage('../images/usa/usa-tour-03.png')
+    }
+}

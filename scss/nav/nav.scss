@@ -1,0 +1,53 @@
+nav{
+    max-width: $content-width;
+    height:80px;
+    margin: 0 auto;
+    border-bottom: 2px solid $site-black;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    position:relative;
+    z-index: 99;
+    
+
+    span{
+        color:$site-black;
+        margin: 0 20px;
+    }
+
+    .logo{
+        max-width:10%;
+        height:53%;
+        color:$site-black;
+
+    }
+
+    .links{
+        max-width:85%;
+
+        a{
+            font-size: 15px;
+            color:$site-black;
+            text-decoration: none;
+            font-family: GillSansUB;
+
+        }
+
+    }
+}
+
+
+@media screen and (max-width:$content-width){
+    nav{
+        max-width: 90%;
+        span{
+            margin: 0 10px;
+        }
+        .links{
+            font-size:8px;
+            
+            
+        }
+    }
+
+}

@@ -1,0 +1,119 @@
+.about{
+    margin-top:110px;
+    margin-bottom:180px;
+
+    .about-header{
+        h1{
+            margin-bottom:2px;
+            font-family: ProximaNovaECT;
+            font-size: 60px;
+            letter-spacing: 6px;
+            font-weight:200px;
+
+        }
+        hr{
+            width:110px;
+            height:2px;
+            border-width:0px;
+            background-color: black;
+            margin-bottom:36px;
+        }
+        p{
+            font-family: GillSansUB;
+            font-size: 16px;
+        }
+    }
+
+    .about-client-quotes{
+        margin-top:107px;
+
+        .client-quotes-title{
+
+            
+                margin-bottom:2px;
+                font-family: ProximaNovaECT;
+                font-size: 40px;
+                letter-spacing: 4px;
+                max-width:300px;
+        }
+        hr{
+            width:150px;
+            height:2px;
+            border-width:0px;
+            background-color: black;
+            margin-bottom:36px;
+        }
+
+        .client-box{
+            max-width:722px;
+            display:flex;
+            position:relative;
+            margin-bottom:37px;
+
+            .client-box-img{
+                
+                width:260px;
+                height:150px;
+                overflow: hidden;
+                margin-right:21px;
+
+                img{
+                    width:100%;
+                }
+
+            }
+
+            .client-box-quote{
+                width:440px;
+                margin-bottom: 20px;
+                font-size: 16px;
+                font-family: GillSansUB;
+                
+
+            }
+
+            .client-name{
+                position:absolute;
+                bottom:0;
+                right:0;
+                font-family: ProximaNovaECT;
+                font-size:20px;
+                color:$site-blue;
+                letter-spacing: 2px;
+
+            }
+
+        }
+    }
+
+    
+}
+@media screen and (max-width:1000px) {
+    .about{
+        .about-header{
+            max-width:90%;
+            margin: 0 auto;
+        }
+
+
+        .about-client-quotes{
+            .client-quotes-title{
+                margin-left:40px;
+            }
+            hr{
+                margin-left:40px;
+            }
+            .client-box{
+                margin:0 auto;
+                max-width:90%;
+                margin-bottom: 30px;
+
+                .client-box-quote{
+                   max-width: 90%;;
+                   
+                }
+            }
+        }
+    }
+
+}
