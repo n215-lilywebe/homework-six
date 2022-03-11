@@ -3,7 +3,7 @@
 
     .about-hero-text{
 
-        font-size:50px;
+        font-size:80px;
         position:absolute;
         top:10px;
         left:10px;
@@ -12,8 +12,8 @@
 
     .about-price-text{
 
-        font-size:20px;
-        font-style: italic;
+        font-size:30px;
+        
         position:absolute;
         margin-bottom: 0px;
         right:10px;
@@ -37,6 +37,14 @@
     }
     .uae3{
         @include tourpackageimage('../images/uae/uae-tour-03.png')
+    }
+}
+@media screen and (max-width:1300px){
+    .ind-tour-hero-uae{
+        width:90%;
+    }
+    .tour-images{
+        @include tourpackageimagesmallscreen();
     }
 }
 

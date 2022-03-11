@@ -512,11 +512,14 @@ nav .links a {
 }
 .tour-promo-cards .promo1 .read-btn {
   background-color: #79addc;
-  padding: 5px 15px;
+  padding: 12px 15px 0px 15px;
   border-radius: 5px;
   color: white;
   width: 133px;
+  height: 40px;
   cursor: pointer;
+  font-family: GillSansUB;
+  font-size: 12px;
   text-decoration: none;
 }
 .tour-promo-cards .promo2 {
@@ -545,11 +548,14 @@ nav .links a {
 }
 .tour-promo-cards .promo2 .read-btn {
   background-color: #79addc;
-  padding: 5px 15px;
+  padding: 12px 15px 0px 15px;
   border-radius: 5px;
   color: white;
   width: 133px;
+  height: 40px;
   cursor: pointer;
+  font-family: GillSansUB;
+  font-size: 12px;
 }
 .tour-promo-cards .promo3 {
   height: 304px;
@@ -577,11 +583,14 @@ nav .links a {
 }
 .tour-promo-cards .promo3 .read-btn {
   background-color: #79addc;
-  padding: 5px 15px;
+  padding: 12px 15px 0px 15px;
   border-radius: 5px;
   color: white;
   width: 133px;
+  height: 40px;
   cursor: pointer;
+  font-family: GillSansUB;
+  font-size: 12px;
 }
 .tour-promo-cards .promo4 {
   height: 304px;
@@ -609,11 +618,14 @@ nav .links a {
 }
 .tour-promo-cards .promo4 .read-btn {
   background-color: #79addc;
-  padding: 5px 15px;
+  padding: 12px 15px 0px 15px;
   border-radius: 5px;
   color: white;
   width: 133px;
+  height: 40px;
   cursor: pointer;
+  font-family: GillSansUB;
+  font-size: 12px;
 }
 .tour-promo-cards .promo5 {
   height: 304px;
@@ -641,11 +653,14 @@ nav .links a {
 }
 .tour-promo-cards .promo5 .read-btn {
   background-color: #79addc;
-  padding: 5px 15px;
+  padding: 12px 15px 0px 15px;
   border-radius: 5px;
   color: white;
   width: 133px;
+  height: 40px;
   cursor: pointer;
+  font-family: GillSansUB;
+  font-size: 12px;
 }
 .tour-promo-cards .promo6 {
   height: 304px;
@@ -673,11 +688,14 @@ nav .links a {
 }
 .tour-promo-cards .promo6 .read-btn {
   background-color: #79addc;
-  padding: 5px 15px;
+  padding: 12px 15px 0px 15px;
   border-radius: 5px;
   color: white;
   width: 133px;
+  height: 40px;
   cursor: pointer;
+  font-family: GillSansUB;
+  font-size: 12px;
 }
 .tour-promo-cards .promo7 {
   height: 304px;
@@ -705,11 +723,14 @@ nav .links a {
 }
 .tour-promo-cards .promo7 .read-btn {
   background-color: #79addc;
-  padding: 5px 15px;
+  padding: 12px 15px 0px 15px;
   border-radius: 5px;
   color: white;
   width: 133px;
+  height: 40px;
   cursor: pointer;
+  font-family: GillSansUB;
+  font-size: 12px;
 }
 .tour-promo-cards .promo8 {
   height: 304px;
@@ -737,11 +758,14 @@ nav .links a {
 }
 .tour-promo-cards .promo8 .read-btn {
   background-color: #79addc;
-  padding: 5px 15px;
+  padding: 12px 15px 0px 15px;
   border-radius: 5px;
   color: white;
   width: 133px;
+  height: 40px;
   cursor: pointer;
+  font-family: GillSansUB;
+  font-size: 12px;
 }
 .tour-promo-cards .promo9 {
   height: 304px;
@@ -769,13 +793,21 @@ nav .links a {
 }
 .tour-promo-cards .promo9 .read-btn {
   background-color: #79addc;
-  padding: 5px 15px;
+  padding: 12px 15px 0px 15px;
   border-radius: 5px;
   color: white;
   width: 133px;
+  height: 40px;
   cursor: pointer;
+  font-family: GillSansUB;
+  font-size: 12px;
 }
 
+@media screen and (max-width: 1300px) {
+  .tour-promo-cards {
+    width: 90%;
+  }
+}
 .tours-hero {
   height: 200px;
   max-width: 980px;
@@ -792,6 +824,11 @@ nav .links a {
   font-weight: 200;
 }
 
+@media screen and (max-width: 1300px) {
+  .tours-hero {
+    width: 90%;
+  }
+}
 .ind-tour-hero {
   max-width: 980px;
   height: 300px;
@@ -830,16 +867,16 @@ nav .links a {
   position: relative;
   margin: 0 auto;
   margin-top: 50px;
+  font-family: ProximaNovaECT;
 }
 .ind-tour-hero-new .about-hero-text {
-  font-size: 50px;
+  font-size: 80px;
   position: absolute;
   top: 10px;
   left: 10px;
 }
 .ind-tour-hero-new .about-price-text {
-  font-size: 20px;
-  font-style: italic;
+  font-size: 30px;
   position: absolute;
   margin-bottom: 0px;
   right: 10px;
@@ -879,6 +916,20 @@ nav .links a {
   background-size: cover;
 }
 
+@media screen and (max-width: 1300px) {
+  .ind-tour-hero-new {
+    width: 90%;
+  }
+
+  .tour-images {
+    flex-direction: column;
+    align-items: center;
+    height: 1151px;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+}
 .ind-tour-hero-usa {
   max-width: 980px;
   height: 300px;
@@ -890,16 +941,16 @@ nav .links a {
   position: relative;
   margin: 0 auto;
   margin-top: 50px;
+  font-family: ProximaNovaECT;
 }
 .ind-tour-hero-usa .about-hero-text {
-  font-size: 50px;
+  font-size: 80px;
   position: absolute;
   top: 10px;
   left: 10px;
 }
 .ind-tour-hero-usa .about-price-text {
-  font-size: 20px;
-  font-style: italic;
+  font-size: 30px;
   position: absolute;
   margin-bottom: 0px;
   right: 10px;
@@ -939,6 +990,20 @@ nav .links a {
   background-size: cover;
 }
 
+@media screen and (max-width: 1300px) {
+  .ind-tour-hero-usa {
+    width: 90%;
+  }
+
+  .tour-images {
+    flex-direction: column;
+    align-items: center;
+    height: 1151px;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+}
 .ind-tour-hero-aus {
   max-width: 980px;
   height: 300px;
@@ -950,16 +1015,16 @@ nav .links a {
   position: relative;
   margin: 0 auto;
   margin-top: 50px;
+  font-family: ProximaNovaECT;
 }
 .ind-tour-hero-aus .about-hero-text {
-  font-size: 50px;
+  font-size: 80px;
   position: absolute;
   top: 10px;
   left: 10px;
 }
 .ind-tour-hero-aus .about-price-text {
-  font-size: 20px;
-  font-style: italic;
+  font-size: 30px;
   position: absolute;
   margin-bottom: 0px;
   right: 10px;
@@ -999,6 +1064,20 @@ nav .links a {
   background-size: cover;
 }
 
+@media screen and (max-width: 1300px) {
+  .ind-tour-hero-aus {
+    width: 90%;
+  }
+
+  .tour-images {
+    flex-direction: column;
+    align-items: center;
+    height: 1151px;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+}
 .ind-tour-hero-newzealand {
   max-width: 980px;
   height: 300px;
@@ -1010,16 +1089,16 @@ nav .links a {
   position: relative;
   margin: 0 auto;
   margin-top: 50px;
+  font-family: ProximaNovaECT;
 }
 .ind-tour-hero-newzealand .about-hero-text {
-  font-size: 50px;
+  font-size: 80px;
   position: absolute;
   top: 10px;
   left: 10px;
 }
 .ind-tour-hero-newzealand .about-price-text {
-  font-size: 20px;
-  font-style: italic;
+  font-size: 30px;
   position: absolute;
   margin-bottom: 0px;
   right: 10px;
@@ -1059,6 +1138,20 @@ nav .links a {
   background-size: cover;
 }
 
+@media screen and (max-width: 1300px) {
+  .ind-tour-hero-newzealand {
+    width: 90%;
+  }
+
+  .tour-images {
+    flex-direction: column;
+    align-items: center;
+    height: 1151px;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+}
 .ind-tour-hero-france {
   max-width: 980px;
   height: 300px;
@@ -1070,16 +1163,16 @@ nav .links a {
   position: relative;
   margin: 0 auto;
   margin-top: 50px;
+  font-family: ProximaNovaECT;
 }
 .ind-tour-hero-france .about-hero-text {
-  font-size: 50px;
+  font-size: 80px;
   position: absolute;
   top: 10px;
   left: 10px;
 }
 .ind-tour-hero-france .about-price-text {
-  font-size: 20px;
-  font-style: italic;
+  font-size: 30px;
   position: absolute;
   margin-bottom: 0px;
   right: 10px;
@@ -1119,6 +1212,20 @@ nav .links a {
   background-size: cover;
 }
 
+@media screen and (max-width: 1300px) {
+  .ind-tour-hero-france {
+    width: 90%;
+  }
+
+  .tour-images {
+    flex-direction: column;
+    align-items: center;
+    height: 1151px;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+}
 .ind-tour-hero-egypt {
   max-width: 980px;
   height: 300px;
@@ -1130,16 +1237,16 @@ nav .links a {
   position: relative;
   margin: 0 auto;
   margin-top: 50px;
+  font-family: ProximaNovaECT;
 }
 .ind-tour-hero-egypt .about-hero-text {
-  font-size: 50px;
+  font-size: 80px;
   position: absolute;
   top: 10px;
   left: 10px;
 }
 .ind-tour-hero-egypt .about-price-text {
-  font-size: 20px;
-  font-style: italic;
+  font-size: 30px;
   position: absolute;
   margin-bottom: 0px;
   right: 10px;
@@ -1179,6 +1286,20 @@ nav .links a {
   background-size: cover;
 }
 
+@media screen and (max-width: 1300px) {
+  .ind-tour-hero-egypt {
+    width: 90%;
+  }
+
+  .tour-images {
+    flex-direction: column;
+    align-items: center;
+    height: 1151px;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+}
 .ind-tour-hero-japan {
   max-width: 980px;
   height: 300px;
@@ -1190,16 +1311,16 @@ nav .links a {
   position: relative;
   margin: 0 auto;
   margin-top: 50px;
+  font-family: ProximaNovaECT;
 }
 .ind-tour-hero-japan .about-hero-text {
-  font-size: 50px;
+  font-size: 80px;
   position: absolute;
   top: 10px;
   left: 10px;
 }
 .ind-tour-hero-japan .about-price-text {
-  font-size: 20px;
-  font-style: italic;
+  font-size: 30px;
   position: absolute;
   margin-bottom: 0px;
   right: 10px;
@@ -1239,6 +1360,20 @@ nav .links a {
   background-size: cover;
 }
 
+@media screen and (max-width: 1300px) {
+  .ind-tour-hero-japan {
+    width: 90%;
+  }
+
+  .tour-images {
+    flex-direction: column;
+    align-items: center;
+    height: 1151px;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+}
 .ind-tour-hero-can {
   max-width: 980px;
   height: 300px;
@@ -1250,16 +1385,16 @@ nav .links a {
   position: relative;
   margin: 0 auto;
   margin-top: 50px;
+  font-family: ProximaNovaECT;
 }
 .ind-tour-hero-can .about-hero-text {
-  font-size: 50px;
+  font-size: 80px;
   position: absolute;
   top: 10px;
   left: 10px;
 }
 .ind-tour-hero-can .about-price-text {
-  font-size: 20px;
-  font-style: italic;
+  font-size: 30px;
   position: absolute;
   margin-bottom: 0px;
   right: 10px;
@@ -1299,6 +1434,20 @@ nav .links a {
   background-size: cover;
 }
 
+@media screen and (max-width: 1300px) {
+  .ind-tour-hero-can {
+    width: 90%;
+  }
+
+  .tour-images {
+    flex-direction: column;
+    align-items: center;
+    height: 1151px;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+}
 .ind-tour-hero-uae {
   max-width: 980px;
   height: 300px;
@@ -1310,16 +1459,16 @@ nav .links a {
   position: relative;
   margin: 0 auto;
   margin-top: 50px;
+  font-family: ProximaNovaECT;
 }
 .ind-tour-hero-uae .about-hero-text {
-  font-size: 50px;
+  font-size: 80px;
   position: absolute;
   top: 10px;
   left: 10px;
 }
 .ind-tour-hero-uae .about-price-text {
-  font-size: 20px;
-  font-style: italic;
+  font-size: 30px;
   position: absolute;
   margin-bottom: 0px;
   right: 10px;
@@ -1359,6 +1508,20 @@ nav .links a {
   background-size: cover;
 }
 
+@media screen and (max-width: 1300px) {
+  .ind-tour-hero-uae {
+    width: 90%;
+  }
+
+  .tour-images {
+    flex-direction: column;
+    align-items: center;
+    height: 1151px;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+}
 .schedule {
   max-width: 980px;
   margin: 0 auto;
@@ -1392,13 +1555,21 @@ nav .links a {
   display: block;
   text-align: center;
   background-color: #79addc;
-  padding: 5px 15px;
+  padding: 12px 15px 0px 15px;
   border-radius: 5px;
   color: white;
   width: 133px;
+  height: 40px;
   cursor: pointer;
+  font-family: GillSansUB;
+  font-size: 12px;
 }
 
+@media screen and (max-width: 1300px) {
+  .schedule {
+    max-width: 90%;
+  }
+}
 .about {
   margin-top: 110px;
   margin-bottom: 180px;

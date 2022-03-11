@@ -14,13 +14,16 @@
         font-family: ProximaNovaECT;
 }
 
-@mixin site-button($bRadius:5px, $btnPadding:5px 15px){
+@mixin site-button($bRadius:5px, $btnPadding:12px 15px 0px 15px){
     background-color: $site-blue;
     padding:$btnPadding;
     border-radius: $bRadius;
     color:white;
     width:133px;
+    height:40px;
     cursor:pointer;
+    font-family:GillSansUB;
+    font-size:12px;
 }
 
 @mixin tourpackagehero($heroImage:''){
@@ -34,6 +37,7 @@
     position:relative;
     margin: 0 auto;
     margin-top:50px;
+    font-family: ProximaNovaECT;
 }
 
 @mixin tourpackageimage($image:''){
@@ -44,4 +48,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+@mixin tourpackageimagesmallscreen(){
+    flex-direction: column;
+        align-items: center;
+        height: 1151px;
+        max-width:90%;
+        margin: 0 auto;
+        margin-top:40px;
 }

@@ -36,3 +36,8 @@
     text-align:center;
     @include site-button();
 }
+@media screen and (max-width:1300px){
+    .schedule{
+        max-width: 90%;
+    }
+}
