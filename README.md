@@ -1,6 +1,5 @@
-# Side By Side
+# Homework Six
 
-## This is your README
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
 maiores excepturi reprehenderit aliquid sit consequuntur ipsa eius
