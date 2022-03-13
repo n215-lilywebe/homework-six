@@ -9,7 +9,7 @@
     margin-top: 50px;
 
     .promo1{
-        @include promo('../images/asset-5@2x.png');
+        @include promo('../images/israel/Group 50.png');
 
         .promo-text{
             margin-top:40px;
@@ -37,7 +37,7 @@
         
     }
     .promo2{
-        @include promo('../images/asset-11@2x.png');
+        @include promo('../images/usa/Group 36.png');
 
         .promo-text{
             margin-top:40px;
@@ -60,7 +60,7 @@
         }
     }
     .promo3{
-        @include promo('../images/asset-14@2x.png');
+        @include promo('../images/aus/Group 37.png');
 
         .promo-text{
             margin-top:40px;
